@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+        margin: 0;
+    }
+    body{
+        height: 100vh;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: #1de309;
+    }
+    .red{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .red p{
+      /*text-align: center;*/
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .flex{
+        height: 100%;
+        background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        /*gap- вирівнювання по гор*/
+        gap: 20px;
+        /*algin-content- вирівнювання по вер*/
+        align-content: center;
+        /*flex-direction- визначае напрямок розміщення елементів в контейнері*/
+        flex-direction: row-reverse ;
+
+    }
+  </style>
+</head>
+<body>
+<div class="flex">
+    <div class="box red">
+        <p>Lorem ipsum dolor.</p>
+    </div>
+    <div class="box green"></div>
+    <div class="box yellow"></div>
+</div>
+</body>
+</html>
