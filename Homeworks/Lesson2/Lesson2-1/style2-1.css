@@ -18,9 +18,10 @@ h1{
     padding: 15px 0;
 }
 .card{
+    background-color: white;
     width: 200px;
     height: 250px;
-    border: 1px solid grey;
+    border: 1px solid #e31212;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
