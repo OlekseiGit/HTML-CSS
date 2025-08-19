@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 100px;
+
+}
+#top-section{
+    background-color: red;
+}
+section p{
+    width: 80%
+}
+#center-section{
+    background-color: lightskyblue;
+
+}
+#bottom-section{
+    background-color: #0cdf0c;
+
+}
+a{
+    font-size: 50px;
+}
